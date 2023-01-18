@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="blur footer-blur-1"></div>
         <div className="blur footer-blur-2"></div>
-        <p>Credits for : @ZAINKEEPSCODE on youtube</p>
+        <p>Credits for : ZAINKEEPSCODE on youtube</p>
     </div>
   )
 }
