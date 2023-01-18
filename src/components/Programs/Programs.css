@@ -1,0 +1,61 @@
+.Programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.programs-categories{
+    display: flex;
+    gap: 1rem
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between; 
+    cursor: pointer;
+}
+
+.category:hover{
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+}
+
+.category > :nth-child(1){
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+.category > :nth-child(2){
+    font-weight: 700;
+}
+
+.category > :nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.category > .join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.category > .join-now > :nth-child(2){
+    width: 1rem;
+}

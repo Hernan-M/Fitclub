@@ -1,0 +1,78 @@
+.Testimonials{
+    display: flex;
+    gap: 1rem;
+}
+
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-t > :nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.left-t > :nth-child(2),
+.left-t > :nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.left-t > :nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+
+}
+
+.right-t{
+    flex: 1;
+    position: relative;
+}
+
+.right-t > :nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0rem;
+}
+
+.right-t > :nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);;
+    right: 7rem;
+    top: 3rem;
+}
+
+.right-t > img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 1rem;
+}
+
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.arrows > img{
+    width: 1.5rem;
+    cursor: pointer;
+}
